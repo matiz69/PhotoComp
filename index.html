@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotografia Produktowa - Twoja Firma</title>
+</head>
+
+<body>
+    <header class="bg-dark text-light">
+        <div class="container">
+            <h1>Twoja Firma - Fotografia Produktowa</h1>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">O nas</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Usługi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mt-4">
+        <section id="hero" class="text-center text-light bg-dark p-5 rounded">
+            <h2>Profesjonalna Fotografia Produktowa</h2>
+            <p>Pomagamy wyróżnić Twoje produkty na rynku.</p>
+            <a href="#contact" class="btn btn-primary">Skontaktuj się z nami</a>
+        </section>
+
+        <section id="about" class="mt-5 p-4 bg-secondary rounded">
+            <h2>O nas</h2>
+            <p>Jesteśmy firmą specjalizującą się w fotografii produktowej. Naszym celem jest pomóc Ci wyróżnić Twoje produkty na tle konkurencji.</p>
+        </section>
+
+        <section id="services" class="mt-5 p-4 bg-secondary rounded">
+            <h2>Usługi</h2>
+            <ul>
+                <li>Fotografia studyjna</li>
+                <li>Fotografia plenerowa</li>
+                <li>Retusz zdjęć</li>
+                <li>Fotografia 360 stopni</li>
+            </ul>
+        </section>
+
+        <section id="portfolio" class="mt-5 p-4 bg-secondary rounded">
+            <h2>Portfolio</h2>
+            <div class="gallery">
+                <img src="images/example1.jpg" alt="Przykład 1" class="img-thumbnail">
+                <img src="images/example2.jpg" alt="Przykład 2" class="img-thumbnail">
+                <img src="images/example3.jpg" alt="Przykład 3" class="img-thumbnail">
+                <!-- Dodaj więcej obrazów -->
+            </div>
+        </section>
+
+        <section id="contact" class="mt-5 p-4 bg-secondary rounded">
+            <h2>Kontakt</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Imię:</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Wiadomość:</label>
+                    <textarea id="message" name="message" class="form-control" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Wyślij</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light p-3 mt-5 text-center">
+        <div class="container">
+            <p>&copy; 2024 Twoja Firma. Wszelkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
